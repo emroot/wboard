@@ -1,0 +1,17 @@
+<!-- Indices written at Sun, 17 Apr 2011 15:57:57 UTC -->
+
+<datastore-indexes>
+
+    <!-- Used 49 times in query history -->
+    <datastore-index kind="WBMessage" ancestor="false" source="auto">
+        <property name="wbKey" direction="asc"/>
+        <property name="creationTime" direction="asc"/>
+    </datastore-index>
+
+    <!-- Used 307 times in query history -->
+    <datastore-index kind="WBChannel" ancestor="false" source="auto">
+        <property name="wbKey" direction="asc"/>
+        <property name="time" direction="asc"/>
+    </datastore-index>
+
+</datastore-indexes>
